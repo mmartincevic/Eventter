@@ -1,0 +1,42 @@
+
+# Ignore temporary files
+*.log
+*.tmp
+*.inl
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore compiled files
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+
+# Ignore backup files
+*.bak
+*.old
+*.orig
+
+# Ignore other common files
+.env.local
+.env.production
+.env.*.local
+
+# Ignore specific files or directories by name
+secret/
+private/
+
+
+# GECS include folders
+include/*
+x64/
+.vs/*
+
+basic-log.txt
+imgui.ini
+
+*.hg
