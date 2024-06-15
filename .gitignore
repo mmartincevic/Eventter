@@ -31,8 +31,10 @@ secret/
 private/
 
 
-# GECS include folders
+#  include folders
 include/*
+packages/*
+packages/
 x64/
 .vs/*
 
